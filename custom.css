@@ -11,6 +11,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: orange;
+}
+
 .logo {
     width: 180px;
 }
@@ -29,4 +33,17 @@ a {
 
 .explore-button {
     background-color: orange;
+}
+
+.explore-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.bag-icon {
+    align-self: center;
+}
+
+.bag-icon img {
+    width: 25px;
 }
